@@ -83,11 +83,8 @@
         <cost name="Cost" typeId="a9f0-4c86-ca63-4d93" value="800"/>
       </costs>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="d51e-854b-7bb9-1aa1" includeChildSelections="true"/>
+        <constraint type="min" value="2" field="selections" scope="roster" shared="true" id="d51e-854b-7bb9-1aa1" includeChildSelections="true"/>
       </constraints>
-      <modifiers>
-        <modifier type="increment" value="1" field="9f2a-dd03-6c41-3e80"/>
-      </modifiers>
       <profiles>
         <profile name="Hoods" typeId="e826-3c49-f700-ca9d" typeName="Model" hidden="false" id="e1a7-8d64-8f8b-afb4" publicationId="24a1-1841-40a2-f16e">
           <characteristics>

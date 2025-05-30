@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="fb99-7c37-6f37-8bcb" name="Moonshiners" gameSystemId="9e17-aafe-5ae6-aa42" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" hidden="false">
+<catalogue library="false" id="fb99-7c37-6f37-8bcb" name="Moonshiners" gameSystemId="9e17-aafe-5ae6-aa42" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" hidden="false">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Pa" hidden="false" id="7349-b02c-6b8d-949a" defaultAmount="0" sortIndex="1">
       <constraints>
@@ -160,15 +160,14 @@
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="f856-cdfd-c5e7-7338">
+        <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="f856-cdfd-c5e7-7338" defaultAmount="1">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c102-e11d-a7ec-19da" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="7438-31cc-6810-58a6-min" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="7438-31cc-6810-58a6-max" includeChildSelections="true"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="04a1-1c44-5418-e4f2" includeChildSelections="true"/>
-      </constraints>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Open Truck" hidden="false" id="243d-476c-ec2e-96df" sortIndex="6">
       <costs>
