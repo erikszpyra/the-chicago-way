@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="fb96-7c37-6f37-8bca" name="Prohibition Agents" gameSystemId="9e17-aafe-5ae6-aa42" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" hidden="false">
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Chief Agent" hidden="false" id="7349-b02c-6b8d-949a" defaultAmount="0" sortIndex="1">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="fdca-d638-441b-775c-min" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="fdca-d638-441b-775c-max" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Chief Agent" hidden="false" id="d84f-8304-cacd-1c80" publicationId="24a1-1841-40a2-f16e" page="25" typeId="e826-3c49-f700-ca9d" typeName="Model">
+          <characteristics>
+            <characteristic name="Hits" typeId="e38d-1b6c-3793-e278">5</characteristic>
+            <characteristic name="Nerve" typeId="cafc-2564-9fb4-c194">2+</characteristic>
+            <characteristic name="Shoot" typeId="bef5-efe6-1873-58e6">+1</characteristic>
+            <characteristic name="HTH" typeId="cd1a-2613-393c-f4bf">0</characteristic>
+            <characteristic name="Drive" typeId="3d36-d713-78ce-cc15">0</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute name="Hits" typeId="4a1e-da78-38ab-72f2">5</attribute>
+            <attribute name="Nerve" typeId="9ad8-bd43-c082-3626">2+</attribute>
+            <attribute name="Shoot" typeId="6470-c15e-6ca1-508e">+1</attribute>
+            <attribute name="HTH" typeId="5b06-bc4c-9db8-28fd">0</attribute>
+            <attribute name="Drive" typeId="0e83-426a-aa19-51d2">0</attribute>
+            <attribute typeId="e2c1-4641-f4b4-520d" name="New Attribute Type"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="96ba-bbbc-289f-66e3" defaultAmount="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2e80-d14d-32d8-751f-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2e80-d14d-32d8-751f-max" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Cost" typeId="a9f0-4c86-ca63-4d93" value="2400"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="0b93-2892-0108-33a8" id="26f7-87aa-a142-6796" primary="false" name="Leader"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Investigator" hidden="false" id="48aa-5412-e9ea-aa70" publicationId="24a1-1841-40a2-f16e" page="25" sortIndex="2">
+      <costs>
+        <cost name="Cost" typeId="a9f0-4c86-ca63-4d93" value="2000"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="false" id="b8f9-6a19-11ae-046e" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Investigator" typeId="e826-3c49-f700-ca9d" typeName="Model" hidden="false" id="9e85-1e08-fd95-55f6" publicationId="24a1-1841-40a2-f16e">
+          <characteristics>
+            <characteristic name="Hits" typeId="e38d-1b6c-3793-e278">4</characteristic>
+            <characteristic name="Nerve" typeId="cafc-2564-9fb4-c194">3+</characteristic>
+            <characteristic name="Shoot" typeId="bef5-efe6-1873-58e6">+2</characteristic>
+            <characteristic name="HTH" typeId="cd1a-2613-393c-f4bf">+1</characteristic>
+            <characteristic name="Drive" typeId="3d36-d713-78ce-cc15">+1</characteristic>
+          </characteristics>
+          <attributes>
+            <attribute name="Hits" typeId="4a1e-da78-38ab-72f2">4</attribute>
+            <attribute name="Nerve" typeId="9ad8-bd43-c082-3626">3+</attribute>
+            <attribute name="Shoot" typeId="6470-c15e-6ca1-508e">+2</attribute>
+            <attribute name="HTH" typeId="5b06-bc4c-9db8-28fd">+1</attribute>
+            <attribute name="Drive" typeId="0e83-426a-aa19-51d2">+1</attribute>
+            <attribute typeId="e2c1-4641-f4b4-520d" name="New Attribute Type"/>
+          </attributes>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="e2ab-d9dd-a165-d4d7" id="9275-8a8e-a3ef-242a" primary="false" name="Big Guys"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Investigator Weapon Options" hidden="false" id="a6a1-3782-2228-f89d" type="selectionEntryGroup" targetId="2d02-b15a-ecfd-dcdf">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="8af7-d3d8-5e17-f7d1-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8af7-d3d8-5e17-f7d1-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Agent" hidden="false" id="615f-2761-3105-d7c7" sortIndex="3">
+      <costs>
+        <cost name="Cost" typeId="a9f0-4c86-ca63-4d93" value="800"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="d51e-854b-7bb9-1aa1" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="d51e-854b-7bb9-1aa1"/>
+      </modifiers>
+      <profiles>
+        <profile name="Agent" typeId="e826-3c49-f700-ca9d" typeName="Model" hidden="false" id="e1a7-8d64-8f8b-afb4" publicationId="24a1-1841-40a2-f16e">
+          <characteristics>
+            <characteristic name="Hits" typeId="e38d-1b6c-3793-e278">4</characteristic>
+            <characteristic name="Nerve" typeId="cafc-2564-9fb4-c194">4+</characteristic>
+            <characteristic name="Shoot" typeId="bef5-efe6-1873-58e6">0</characteristic>
+            <characteristic name="HTH" typeId="cd1a-2613-393c-f4bf">0</characteristic>
+            <characteristic name="Drive" typeId="3d36-d713-78ce-cc15">0</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="2da2-74cb-fc08-cdbf" id="1226-bdc3-dc24-b764" primary="false" name="Guys"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Agent Weapon Options" hidden="false" id="4925-716c-aedc-3b4d" type="selectionEntryGroup" targetId="cb4a-11aa-f110-feae">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="68ee-f4b1-1fdc-5352-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68ee-f4b1-1fdc-5352-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Uncertified Agent" hidden="false" id="442f-0f4f-12a9-0edf" sortIndex="4">
+      <costs>
+        <cost name="Cost" typeId="a9f0-4c86-ca63-4d93" value="400"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="f38f-3603-125c-89a7" id="b5a4-8d1a-bcf9-388e" primary="false" name="Rookies"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="increment" value="1" field="b095-7b08-0680-fd90"/>
+      </modifiers>
+      <profiles>
+        <profile name="Uncertified Agent" typeId="e826-3c49-f700-ca9d" typeName="Model" hidden="false" id="afbd-342a-87cd-c435">
+          <characteristics>
+            <characteristic name="Hits" typeId="e38d-1b6c-3793-e278">3</characteristic>
+            <characteristic name="Nerve" typeId="cafc-2564-9fb4-c194">6+</characteristic>
+            <characteristic name="Shoot" typeId="bef5-efe6-1873-58e6">0</characteristic>
+            <characteristic name="HTH" typeId="cd1a-2613-393c-f4bf">0</characteristic>
+            <characteristic name="Drive" typeId="3d36-d713-78ce-cc15">-1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Uncertified Agent Weapon Options" hidden="false" id="922a-1792-fc1f-65f5" type="selectionEntryGroup" targetId="69ab-3c46-592a-a6f9">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8ff2-7f86-a25e-0ec7-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ff2-7f86-a25e-0ec7-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Driver" hidden="false" id="c66d-fab5-e75e-2dbc" sortIndex="5">
+      <costs>
+        <cost name="Cost" typeId="a9f0-4c86-ca63-4d93" value="600"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="f38f-3603-125c-89a7" id="4e73-cd29-50e7-adee" primary="false" name="Rookies"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Driver" typeId="e826-3c49-f700-ca9d" typeName="Model" hidden="false" id="5af1-1157-8912-e87f">
+          <characteristics>
+            <characteristic name="Hits" typeId="e38d-1b6c-3793-e278">3</characteristic>
+            <characteristic name="Nerve" typeId="cafc-2564-9fb4-c194">4+</characteristic>
+            <characteristic name="Shoot" typeId="bef5-efe6-1873-58e6">0</characteristic>
+            <characteristic name="HTH" typeId="cd1a-2613-393c-f4bf">0</characteristic>
+            <characteristic name="Drive" typeId="3d36-d713-78ce-cc15">+2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="f856-cdfd-c5e7-7338">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c102-e11d-a7ec-19da" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="04a1-1c44-5418-e4f2" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Medium Car" hidden="false" id="243d-476c-ec2e-96df" sortIndex="6">
+      <costs>
+        <cost name="Cost" typeId="a9f0-4c86-ca63-4d93" value="500"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="db5c-acdb-b17c-fc72" includeChildSelections="false"/>
+      </constraints>
+      <profiles>
+        <profile name="Medium Car" typeId="209e-b881-e13b-f01d" typeName="Vehicle" hidden="false" id="9c35-b3ba-97ab-b3db">
+          <characteristics>
+            <characteristic name="Drive" typeId="2153-8b73-0c1c-5222">+1</characteristic>
+            <characteristic name="Passengers" typeId="d331-3d20-8168-bcfa">+3</characteristic>
+            <characteristic name="Cargo" typeId="9fb5-cd97-8d51-42a8">1</characteristic>
+            <characteristic name="Notes" typeId="bef2-f3a3-0ec0-66a9">Running Boards</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Running Boards" id="98f0-b253-2515-f5b6" hidden="false" type="rule" targetId="0f0b-3245-6c7a-19a9"/>
+      </infoLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Investigator Weapon Options" id="2d02-b15a-ecfd-dcdf" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="0b0c-ef7f-bc9f-caf4"/>
+        <selectionEntry type="upgrade" import="true" name="Pump Action Shotgun" hidden="false" id="59e1-7ebe-52d4-f149">
+          <costs>
+            <cost name="Cost" typeId="a9f0-4c86-ca63-4d93" value="500"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Uncertified Agent Weapon Options" id="69ab-3c46-592a-a6f9" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="aecc-9f8f-5b74-7035"/>
+        <selectionEntry type="upgrade" import="true" name="Pump Action Shotgun" hidden="false" id="943c-0a44-f85b-2c99">
+          <costs>
+            <cost name="Cost" typeId="a9f0-4c86-ca63-4d93" value="100"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Agent Weapon Options" id="cb4a-11aa-f110-feae" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Pistol" hidden="false" id="f91a-62f7-ab4b-d029" sortIndex="1"/>
+        <selectionEntry type="upgrade" import="true" name="Pump Action Shotgun" hidden="false" id="e12b-a66c-ec5d-f72f" sortIndex="2">
+          <costs>
+            <cost name="Cost" typeId="a9f0-4c86-ca63-4d93" value="200"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Browning Automatic Rifle (B.A.R.)" hidden="false" id="2e24-9af2-7839-3b66" sortIndex="3">
+          <costs>
+            <cost name="Cost" typeId="a9f0-4c86-ca63-4d93" value="400"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="cae7-3c34-7d20-c329" includeChildSelections="true"/>
+          </constraints>
+          <rules>
+            <rule name="BAR" id="ae9f-b477-4054-bbf2" hidden="false">
+              <description>Any hit from a BAR that doesn&apos;t automatically take a character out of action causes an under fire marker and nerve test result on the firing table.</description>
+            </rule>
+            <rule name="Hard to keep on target" id="b333-2442-344a-8fb6" hidden="false">
+              <description>When firing 3 shots in a single turn the third shot is at an additional -1 to hit (making the shot -3 to hit in total, plus any other modifiers).</description>
+            </rule>
+            <rule name="BAR Stats" id="dec3-b30c-9c74-0b05" hidden="false">
+              <description>MAX SHOTS 3 / Point Blank - N/A / Close - 0-20 / Long 21+ /  Hard to Keep On Target</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <rules>
+    <rule name="Everything within the law" id="3553-b1e5-7d47-deb5" hidden="false">
+      <description>Once per game, after all initiative cards are revealed, the Prohibition Agent player may pick up all their initiative cards and place them on the discard pile. A new set of initiative cards are then drawn and placed on the table in the normal way.</description>
+    </rule>
+    <rule name="Never stop fighting &apos;til the fight is done" id="c908-37c3-f2be-d63a" hidden="false">
+      <description>At the end of each turn the Agent player can place an Under Fire marker on an enemy model. This model must have at least one marker already and this cannot be used to take a model out of action.</description>
+    </rule>
+  </rules>
+</catalogue>
