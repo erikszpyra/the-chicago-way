@@ -66,12 +66,7 @@
         <categoryLink targetId="e2ab-d9dd-a165-d4d7" id="9275-8a8e-a3ef-242a" primary="false" name="Big Guys"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Big Brother Weapon Options" hidden="false" id="a6a1-3782-2228-f89d" type="selectionEntryGroup" targetId="2d02-b15a-ecfd-dcdf">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="8af7-d3d8-5e17-f7d1-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8af7-d3d8-5e17-f7d1-max" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
+        <entryLink import="true" name="Big Brother Weapon Options" hidden="false" id="a6a1-3782-2228-f89d" type="selectionEntryGroup" targetId="2d02-b15a-ecfd-dcdf"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Cousins" hidden="false" id="615f-2761-3105-d7c7" sortIndex="3">
@@ -96,12 +91,7 @@
         <categoryLink targetId="2da2-74cb-fc08-cdbf" id="1226-bdc3-dc24-b764" primary="false" name="Guys"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Cousins Weapon Options" hidden="false" id="4925-716c-aedc-3b4d" type="selectionEntryGroup" targetId="cb4a-11aa-f110-feae">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="68ee-f4b1-1fdc-5352-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68ee-f4b1-1fdc-5352-max" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
+        <entryLink import="true" name="Cousins Weapon Options" hidden="false" id="4925-716c-aedc-3b4d" type="selectionEntryGroup" targetId="cb4a-11aa-f110-feae"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Hick" hidden="false" id="442f-0f4f-12a9-0edf" sortIndex="4">
@@ -123,12 +113,7 @@
         </profile>
       </profiles>
       <entryLinks>
-        <entryLink import="true" name="Hick Weapon Options" hidden="false" id="922a-1792-fc1f-65f5" type="selectionEntryGroup" targetId="69ab-3c46-592a-a6f9">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8ff2-7f86-a25e-0ec7-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ff2-7f86-a25e-0ec7-max" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
+        <entryLink import="true" name="Hick Weapon Options" hidden="false" id="922a-1792-fc1f-65f5" type="selectionEntryGroup" targetId="69ab-3c46-592a-a6f9"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="57eb-7767-c141-a831" includeChildSelections="true"/>
