@@ -2,10 +2,6 @@
 <catalogue library="false" id="fb99-7c37-6f37-8bcb" name="Moonshiners" gameSystemId="9e17-aafe-5ae6-aa42" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" hidden="false">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Pa" hidden="false" id="7349-b02c-6b8d-949a" defaultAmount="0" sortIndex="1">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="fdca-d638-441b-775c-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="fdca-d638-441b-775c-max" includeChildSelections="false"/>
-      </constraints>
       <profiles>
         <profile name="Pa" hidden="false" id="d84f-8304-cacd-1c80" publicationId="24a1-1841-40a2-f16e" page="25" typeId="e826-3c49-f700-ca9d" typeName="Model">
           <characteristics>
@@ -82,9 +78,9 @@
       <costs>
         <cost name="Cost" typeId="a9f0-4c86-ca63-4d93" value="800"/>
       </costs>
-      <modifiers>
-        <modifier type="increment" value="1" field="d51e-854b-7bb9-1aa1"/>
-      </modifiers>
+      <constraints>
+        <constraint type="min" value="2" field="selections" scope="roster" shared="true" id="87f2-52d3-9bf7-0a9a" includeChildSelections="true"/>
+      </constraints>
       <profiles>
         <profile name="Cousins" typeId="e826-3c49-f700-ca9d" typeName="Model" hidden="false" id="e1a7-8d64-8f8b-afb4" publicationId="24a1-1841-40a2-f16e">
           <characteristics>
@@ -104,8 +100,6 @@
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="68ee-f4b1-1fdc-5352-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="68ee-f4b1-1fdc-5352-max" includeChildSelections="false"/>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4ec4-8ab7-6433-926a-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ec4-8ab7-6433-926a-max" includeChildSelections="false"/>
           </constraints>
         </entryLink>
       </entryLinks>
